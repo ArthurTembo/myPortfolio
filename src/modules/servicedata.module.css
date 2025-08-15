@@ -1,0 +1,30 @@
+.imgcontainer {
+  width: auto;
+  max-height: 420px;
+  -webkit-border-radius: 8px 8px 0 0 !important;
+  -moz-border-radius: 8px 8px 0 0 !important;
+  -ms-border-radius: 8px 8px 0 0 !important;
+  -o-border-radius: 8px 8px 0 0 !important;
+  border-radius: 8px 8px 0 0 !important;
+}
+.card {
+  box-shadow: 0 0 12px rgba(30, 30, 30, 0.5);
+  -webkit-border-radius: 8px !important;
+  -moz-border-radius: 8px !important;
+  -ms-border-radius: 8px !important;
+  -o-border-radius: 8px !important;
+  border-radius: 8px !important;
+  margin-bottom: 1rem !important;
+}
+.caption {
+  text-align: center;
+  font-size: 24px;
+  padding-top: 10px;
+  font-weight: 500;
+}
+
+/* Ensure proper spacing between service cards */
+.col-md-6,
+.col-lg-4 {
+  margin-bottom: 1rem !important;
+}

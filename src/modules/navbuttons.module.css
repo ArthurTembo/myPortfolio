@@ -1,0 +1,119 @@
+a{ text-decoration: none; color: #222;
+}
+a:hover{color: #222;}
+
+.navbuttons {
+  text-decoration: none;
+  font-size: 1.2rem;
+  flex: 1;
+  margin-right: 24px;
+}
+
+.navbuttons ul {
+  display: flex;
+  gap: 1.8rem;
+  list-style: none;
+  margin: 0;
+  font-weight: 500;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.navbuttons ul li {
+  padding: 6px;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  margin-right: 8px;
+}
+
+.navbuttons ul li:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.navbuttons ul li:not(:last-child)::after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 1.5em;
+  background: #141414;
+  margin-left: 2rem;
+  position: absolute;
+  right: -1.3rem;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.navbuttons ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0;
+  height: 3px;
+  background: rgb(30, 30, 30, 0.7);
+  border-radius: 2px;
+  transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
+  -webkit-transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  -ms-transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navbuttons ul li:hover::before {
+  width: 100%;
+}
+@media (max-width: 991.98px) {
+  .navbuttons ul li:not(:last-child)::after {
+    display: none;
+  }
+  .navbuttons ul li:hover::before {
+    width: 0;
+  }
+  .navbarContainer {
+    flex-direction: column;
+    box-shadow: none;
+    padding: 0.5rem 0.2rem;
+    margin: 0;
+  }
+  .navbuttons ul {
+    flex-direction: column;
+    gap: 0.2rem;
+    align-items: flex-end;
+    width: 150px;
+    position: absolute;
+    right: 14px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(5px);
+    padding: 4px 16px;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+  }
+  .navbuttons ul li {
+    width: 100%;
+    font-weight: 600;
+    text-align: left;
+    padding: 0.7rem 0.5rem;
+    font-size: 1rem;
+    background: none;
+    color: #222;
+    box-shadow: none;
+    border-bottom: 1px solid #eee;
+  }
+  .navbuttons ul li:last-child {
+    border-bottom: none;
+  }
+}
