@@ -72,7 +72,7 @@ a:hover{color: #222;}
 .navbuttons ul li:hover::before {
   width: 100%;
 }
-@media (max-width: 991.98px) {
+@media (max-width: 991.98px) {git
   .navbuttons ul li:not(:last-child)::after {
     display: none;
   }
