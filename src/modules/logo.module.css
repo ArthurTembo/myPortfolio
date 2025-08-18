@@ -3,3 +3,10 @@
   font-weight: 600 !important;
   margin-left: 24px;
 }
+
+@media (max-width: 991.98px){
+.logo{
+font-size: 1.2rem !important;
+margin-left: 8px;
+}
+}
