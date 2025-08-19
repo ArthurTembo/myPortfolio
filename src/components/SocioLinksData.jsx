@@ -1,3 +1,4 @@
+import styles from "../modules/iconstyle.module.css";
 export default function SocioLinksData({ link, linkIcon, linkColor }) {
   return (
     <div
@@ -5,7 +6,7 @@ export default function SocioLinksData({ link, linkIcon, linkColor }) {
       style={{ maxWidth: "50px" }}
     >
       <a href={`${link}`} target={`_blank`}>
-        <img src={linkIcon} alt="icon" style={{ maxHeight: "50px" }} />
+        <img src={linkIcon} alt="icon" className={`${styles.sociolinkicon}`} />
       </a>
     </div>
   );

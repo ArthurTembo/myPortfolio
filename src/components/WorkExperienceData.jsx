@@ -13,7 +13,9 @@ export default function WorkExperienceData({
     <div className={`mt-2 mb-3`}>
       <div className={`d-flex justify-content-between p-2 ${styles.txtsize}`}>
         <span>{jobTitle}</span>
-        <span className={`rounded-pill bg-warning p-1 ps-3 pe-3 ${styles.size}`}>
+        <span
+          className={`rounded-pill bg-warning p-1 ps-3 pe-3 ${styles.size}`}
+        >
           {fullTime ? "FULLTIME" : "PART_TIME"}
         </span>
       </div>

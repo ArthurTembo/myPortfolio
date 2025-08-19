@@ -5,24 +5,24 @@ export default function NavButtons() {
   return (
     <div className={styles.navbuttons}>
       <ul className="navbar-nav">
-        <li className="nav-item">
-          <a href={"#home"}>Home</a>
-        </li>
-        <li className="nav-item">
-          <a href={"#about"}>About Me</a>
-        </li>
-        <li className="nav-item">
-          <a href={"#services"}>Services</a>
-        </li>
-        <li className="nav-item">
-          <a href={"#why_me"}>Why Me</a>
-        </li>
-        <li className="nav-item">
-          <a href={"#resume"}>Resume</a>
-        </li>
-        <li className="nav-item">
-          <a href={"#contact"}>Contact</a>
-        </li>
+        <a href={"#home"}>
+          <li className="nav-item">Home</li>
+        </a>
+        <a href={"#about"}>
+          <li className="nav-item">About Me</li>
+        </a>
+        <a href={"#services"}>
+          <li className="nav-item">Services</li>
+        </a>
+        <a href={"#why_me"}>
+          <li className="nav-item">Why Me</li>
+        </a>
+        <a href={"#resume"}>
+          <li className="nav-item">Resume</li>
+        </a>
+        <a href={"#contact"}>
+          <li className="nav-item">Contact</li>
+        </a>
       </ul>
     </div>
   );

@@ -3,10 +3,16 @@
   width: 30px;
   margin-top: -4px;
 }
+.sociolinkicon {
+  max-height: 50px;
+}
 @media (max-width: 991.98px) {
   .icon {
     height: auto;
     width: 1.6rem;
     margin-top: -4px;
+  }
+  .sociolinkicon {
+    max-height: 25px;
   }
 }
