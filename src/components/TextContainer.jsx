@@ -1,7 +1,7 @@
 import styles from "../modules/textcontainer.module.css";
 export default function TextContainer() {
   return (
-    <div >
+    <div className={`${styles.textcolor}`}>
       <div className={`fs-1 ${styles.heading}`}>
         <div>
           <span className={`${styles.emphasis}`}>WELCOME </span>TO

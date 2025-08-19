@@ -1,6 +1,10 @@
-a{ text-decoration: none; color: #222;
+a {
+  text-decoration: none;
+  color: #222;
 }
-a:hover{color: #222;}
+a:hover {
+  color: #222;
+}
 
 .navbuttons {
   text-decoration: none;
@@ -33,6 +37,7 @@ a:hover{color: #222;}
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
+  cursor: pointer;
 }
 
 .navbuttons ul li:not(:last-child)::after {
@@ -72,7 +77,8 @@ a:hover{color: #222;}
 .navbuttons ul li:hover::before {
   width: 100%;
 }
-@media (max-width: 991.98px) {git
+
+@media (max-width: 991.98px) {
   .navbuttons ul li:not(:last-child)::after {
     display: none;
   }
@@ -82,10 +88,11 @@ a:hover{color: #222;}
   .navbarContainer {
     flex-direction: column;
     box-shadow: none;
-    padding: 0.4rem 0.1rem;
+    padding: 0.4rem 0.2rem;
     margin: 0;
   }
   .navbuttons ul {
+    margin-top: 10px;
     flex-direction: column;
     gap: 0.1rem;
     align-items: flex-start;
@@ -115,5 +122,8 @@ a:hover{color: #222;}
   }
   .navbuttons ul li:last-child {
     border-bottom: none;
+  }
+  .navbuttons ul li:hover {
+    cursor: pointer;
   }
 }

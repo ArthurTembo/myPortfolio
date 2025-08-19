@@ -4,9 +4,9 @@ export default function ResumeTitleContainer() {
   return (
     <div className={`container-fluid ${styles.container}`}>
       <div
-        className={`d-flex justify-content-center p-2 `}
+        className={`d-flex justify-content-center`}
       >
-        <span className={`fs-2 fw-normal`}>RESUME</span>
+        <span className={`fs-3 fs-md-2 fw-normal`}>RESUME</span>
       </div>
     </div>
   );

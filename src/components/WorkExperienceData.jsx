@@ -11,17 +11,17 @@ export default function WorkExperienceData({
 }) {
   return (
     <div className={`mt-2 mb-3`}>
-      <div className={`d-flex justify-content-between p-2`}>
+      <div className={`d-flex justify-content-between p-2 ${styles.txtsize}`}>
         <span>{jobTitle}</span>
         <span className={`rounded-pill bg-warning p-1 ps-3 pe-3 ${styles.size}`}>
           {fullTime ? "FULLTIME" : "PART TIME"}
         </span>
       </div>
-      <div className={`d-flex justify-content-between p-2`}>
+      <div className={`d-flex justify-content-between p-2 ${styles.txtsize}`}>
         <span>
           <img src={location} alt="icon" className={`p-2 ${iconStyle.icon}`} />
           {jobLocation}
-        </span>{" "}
+        </span>
         <span>
           <img src={calendar} alt="icon" className={` p-2 ${iconStyle.icon}`} />
           {duration}

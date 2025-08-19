@@ -1,6 +1,6 @@
 export default function AboutMeContent() {
   return (
-    <div className={`fs-5 p-3 mt-1 `}>
+    <div className={`fs-6 fs-md-5  p-3 mt-1 `}>
       <p className={`text-justify`}>
         I'm a Frontend Developer focused on building responsive and
         user-friendly web experiences. I work with technologies like HTML, CSS,

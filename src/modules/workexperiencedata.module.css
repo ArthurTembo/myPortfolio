@@ -1,4 +1,14 @@
 .size {
   width: 120px !important;
-text-align: center;
+  text-align: center;
+}
+
+@media (max-width: 991.98px) {
+  .size {
+    width: 5.6rem !important;
+    font-size: 12px !important;
+  }
+  .txtsize {
+    font-size: 13px !important;
+  }
 }

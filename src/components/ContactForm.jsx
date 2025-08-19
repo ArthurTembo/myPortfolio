@@ -37,7 +37,7 @@ const ContactForm = () => {
           <form
             ref={form}
             onSubmit={sendEmail}
-            className="p-4 bg-light rounded shadow row"
+            className="p-2 bg-light rounded shadow row"
           >
             <div className={`col-md-6`}>
               <div className="mb-3">
@@ -75,7 +75,7 @@ const ContactForm = () => {
                 <label className="form-label fw-bold">Message</label>
                 <textarea
                   name="message"
-                  rows="5"
+                  rows="3"
                   className="form-control"
                   required
                 />

@@ -8,7 +8,6 @@
   border-radius: 8px 8px 0 0 !important;
 }
 .card {
-  box-shadow: 0 0 12px rgba(30, 30, 30, 0.5);
   -webkit-border-radius: 8px !important;
   -moz-border-radius: 8px !important;
   -ms-border-radius: 8px !important;
@@ -18,8 +17,8 @@
 }
 .caption {
   text-align: center;
-  font-size: 24px;
-  padding-top: 10px;
+  font-size: 1.1rem;
+  padding-top: 0.5rem;
   font-weight: 500;
 }
 

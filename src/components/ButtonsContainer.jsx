@@ -4,13 +4,13 @@ export default function ButtonsContainer() {
   return (
     <div className={styles.buttonsholder}>
       <a href={"#about"}>
-        <button className={`btn btn-primary rounded-pill ${styles.button}`}>
+        <button className={`fw-bold btn btn-primary rounded-pill ${styles.button}`}>
           ABOUT ME
         </button>
       </a>
       <a href={"#services"}>
         <button
-          className={`btn btn-primary bg-transparent border-primary rounded-pill ${styles.button2}`}
+          className={`fw-bold btn btn-primary bg-transparent border-primary rounded-pill ${styles.button2}`}
         >
           SERVICES
         </button>

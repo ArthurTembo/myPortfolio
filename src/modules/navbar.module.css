@@ -12,7 +12,13 @@
   -o-border-radius: 8px;
 }
 
-.navblur{
-background-color: rgba(255, 255, 255, 0.3);
-backdrop-filter: blur(8px);
+.navblur {
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(8px);
+}
+
+@media (max-width: 991.98px) {
+  .navbar {
+    padding: 8px 3px;
+  }
 }

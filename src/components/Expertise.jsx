@@ -45,7 +45,7 @@ export default function Expertise() {
     },
   ];
   return (
-    <div className={`row col-11 col-md-11 shadow round-2 pt-5 pb-4 ps-2 pe-2`}>
+    <div className={`row col-11 col-md-11 shadow round-2 pt-5 pb-4`}>
       <div className={`text-center fs-3 mb-2`}>Expertise</div>
       {expertiseInfo.map((expertiseInfo) => (
         <ExpertiseData

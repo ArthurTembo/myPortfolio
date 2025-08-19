@@ -34,7 +34,7 @@ export default function WhyMeContent() {
     },
   ];
   return (
-    <div className={`row col-11 col-md-11 shadow round-2 pt-3 pb-4 ps-2 pe-2`}>
+    <div className={`row col-11 col-md-11 shadow round-2 pt-3 pb-4`}>
       {whyMeInfo.map((whyMeInfo) => (
         <WhyMeData
           key={whyMeInfo.factorTitle}

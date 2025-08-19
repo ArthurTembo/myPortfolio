@@ -9,7 +9,7 @@ export default function ExpertiseData({ title, styleWidth, ariaValue, icon }) {
             <img src={icon} alt="icon" className={`img-fluid rounded-2`} />
           </div>
           <div className={`col-10 col-md-9`}>
-            <div className={`mb-2 fs-5`}>{title}</div>
+            <div className={`mb-2 fs-6 fs-md-5`}>{title}</div>
             <div className={`progress`}>
               <div
                 className={`progress-bar`}

@@ -9,15 +9,15 @@ export default function WorkExperience() {
       duration: "2025 April - Present",
     },
     {
-      jobTitle: "Computer Studies and Mathematics Teacher",
+      jobTitle: "Mathematics and ICT Teacher",
       jobLocation: "Mkwichi Day Secondary School",
       fullTime: true,
       duration: "2025 January - 2025 April",
     },
   ];
   return (
-    <div className={`ps-4`}>
-      <div className={`fs-4 p-1 d-flex justify-content-center justify-content-md-start justify-content-lg-start justify-content-xl-start justify-content-xxl-start`}>
+    <div className={`ps-md-4 ps-0`}>
+      <div className={`fs-5 fs-md-4 p-1 d-flex justify-content-center justify-content-md-start justify-content-lg-start justify-content-xl-start justify-content-xxl-start`}>
         <span>Work Experience</span>
       </div>
       {workExperience.map((workData) => (

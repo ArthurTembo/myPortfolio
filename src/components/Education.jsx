@@ -13,9 +13,9 @@ export default function Education() {
     },
   ];
   return (
-    <div className={`ps-4`}>
+    <div className={`ps-0 ps-md-4`}>
       <div
-        className={`fs-4 p-1 d-flex justify-content-center justify-content-md-start justify-content-lg-start justify-content-xl-start justify-content-xxl-start`}
+        className={`fs-5 fs-md-4 p-1 d-flex justify-content-center justify-content-md-start justify-content-lg-start justify-content-xl-start justify-content-xxl-start`}
       >
         <span>Education</span>
       </div>

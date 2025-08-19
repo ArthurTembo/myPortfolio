@@ -5,7 +5,7 @@ import "../bootstrap/bootstrap.min.css";
 
 export default function ServicesContainer() {
   return (
-    <div className={`row  container-xxl`}>
+    <div className={`row ps-md-3 pe-md-3`}>
       <div className={`col-md-12 col-lg-5`}>
         <ResumeProfileImage />
       </div>

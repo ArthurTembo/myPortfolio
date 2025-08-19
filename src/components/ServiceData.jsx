@@ -3,7 +3,7 @@ export default function ServiceData({ serviceTitle, serviceImage, isActive }) {
   return (
     <div className={`carousel-item ${isActive ? "active" : ""}`}>
       <div className={`d-flex justify-content-center`}>
-        <div className={`card p-4 ${styles.card}`}>
+        <div className={`card p-1 p-md-2  ${styles.card}`}>
           <img
             src={serviceImage}
             alt="image"

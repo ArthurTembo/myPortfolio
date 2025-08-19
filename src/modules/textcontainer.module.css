@@ -1,17 +1,14 @@
 .heading {
-  font-size: 40px;
   font-weight: 600;
   padding: 12px;
   letter-spacing: 10px;
 }
 .paragraph {
-  font-size: 28px;
   font-weight: 100;
   padding: 12px;
 }
 
 .outro {
-  font-size: 24px;
   padding: 12px;
 }
 
@@ -19,4 +16,6 @@
   color: rgb(255, 162, 0);
 }
 
-
+.textcolor {
+  color: white;
+}
