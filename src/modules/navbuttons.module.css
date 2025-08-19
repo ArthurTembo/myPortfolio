@@ -23,7 +23,7 @@ a:hover {
   padding: 0;
 }
 
-.navbuttons ul li {
+.navbuttons ul a {
   padding: 6px;
   cursor: pointer;
   position: relative;
@@ -31,7 +31,7 @@ a:hover {
   margin-right: 8px;
 }
 
-.navbuttons ul li:hover {
+.navbuttons ul a:hover {
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
@@ -40,7 +40,7 @@ a:hover {
   cursor: pointer;
 }
 
-.navbuttons ul li:not(:last-child)::after {
+.navbuttons ul a:not(:last-child)::after {
   content: "";
   display: inline-block;
   width: 1px;
@@ -57,7 +57,7 @@ a:hover {
   -o-transform: translateY(-50%);
 }
 
-.navbuttons ul li::before {
+.navbuttons ul a::before {
   content: "";
   position: absolute;
   left: 0;
@@ -74,15 +74,15 @@ a:hover {
   -o-transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navbuttons ul li:hover::before {
+.navbuttons ul a:hover::before {
   width: 100%;
 }
 
 @media (max-width: 991.98px) {
-  .navbuttons ul li:not(:last-child)::after {
+  .navbuttons ul a:not(:last-child)::after {
     display: none;
   }
-  .navbuttons ul li:hover::before {
+  .navbuttons ul a:hover::before {
     width: 0;
   }
   .navbarContainer {
@@ -109,7 +109,7 @@ a:hover {
     -ms-border-radius: 14px;
     -o-border-radius: 14px;
   }
-  .navbuttons ul li {
+  .navbuttons ul a {
     width: 100%;
     font-weight: 600;
     text-align: left;
@@ -120,10 +120,10 @@ a:hover {
     box-shadow: none;
     border-bottom: 1px solid #eee;
   }
-  .navbuttons ul li:last-child {
+  .navbuttons ul a:last-child {
     border-bottom: none;
   }
-  .navbuttons ul li:hover {
+  .navbuttons ul a:hover {
     cursor: pointer;
   }
 }
