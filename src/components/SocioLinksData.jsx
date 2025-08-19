@@ -3,7 +3,7 @@ export default function SocioLinksData({ link, linkIcon, linkColor }) {
   return (
     <div
       className={`p-2 card shadow d-flex justify-content-center`}
-      style={{ maxWidth: "35px" }}
+      style={{ maxWidth: "40px" }}
     >
       <a href={`${link}`} target={`_blank`}>
         <img src={linkIcon} alt="icon" className={`${styles.sociolinkicon}`} />
